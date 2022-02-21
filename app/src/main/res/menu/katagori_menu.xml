@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/katagoriDress"
+        android:title="Dress Pesta"
+        />
+
+    <item android:id="@+id/katagoriCasual"
+        android:title="Dress Casual"/>
+
+    <item android:id="@+id/katagoriTunik"
+        android:title="Tunik"
+        />
+
+    <item android:id="@+id/katagoriOuter"
+        android:title="Outer"/>
+</menu>

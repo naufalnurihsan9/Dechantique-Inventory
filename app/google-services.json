@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "635173613068",
+    "firebase_url": "https://dechantiqueapplication.firebaseio.com",
+    "project_id": "dechantiqueapplication",
+    "storage_bucket": "dechantiqueapplication.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:635173613068:android:b233b8124a8bfb4e060829",
+        "android_client_info": {
+          "package_name": "com.example.dechantiqueapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "635173613068-j9gqhqbfs00b4ln92qaf5dlp45cgrl95.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dechantiqueapplication",
+            "certificate_hash": "a870a94d4e6fbed7b0afae1db21c34107c8c7473"
+          }
+        },
+        {
+          "client_id": "635173613068-nno9dq8f1e5mst6p7dhpovnun6gi552d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBT5R-6E2E76As0JNx4waO1D_Byr6DWJFs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "635173613068-nno9dq8f1e5mst6p7dhpovnun6gi552d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

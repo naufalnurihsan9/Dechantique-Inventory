@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dechantiqueapplication">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Admin.EditDetailBarang_Admin"></activity>
+        <activity android:name=".Admin.MainActivity_Admin" />
+        <activity android:name=".Admin.TentangKami_Admin" />
+        <activity android:name=".Admin.Dashboard_Admin" />
+        <activity android:name=".Admin.Login_Admin" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/map_key" />
+
+        <activity android:name=".Users.TentangKami" />
+        <activity android:name=".Users.MainActivity2" />
+        <activity android:name=".Users.Dashboard" />
+        <activity android:name=".Users.Edit_Detal_Barang" />
+        <activity android:name=".Users.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Users.Detail_Barang" />
+        <activity android:name=".Users.Update_ke_LupaPass" />
+        <activity android:name=".Users.UpdateProfile" />
+        <activity android:name=".Users.LupaPass" />
+        <activity android:name=".Admin.TambahProdukActivity" />
+        <activity android:name=".Users.ProfileActivity" />
+        <activity android:name=".Users.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Users.RegisterActivity" />
+        <activity android:name=".MainActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

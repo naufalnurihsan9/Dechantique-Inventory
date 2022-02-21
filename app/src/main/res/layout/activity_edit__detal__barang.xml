@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    android:orientation="vertical"
+    tools:context=".Users.Edit_Detal_Barang">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/backKeMainMenu_"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/arrow_back" />
+
+        <ImageView
+            android:id="@+id/IvProduk"
+            android:layout_width="210dp"
+            android:layout_height="167dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:paddingRight="12dp"
+            />
+
+        <Button
+            android:id="@+id/btnPilihFotoBrng"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="17dp"
+            android:text="Pilih foto"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:layout_marginBottom="15dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/btn_bg"
+            android:orientation="vertical"
+            android:paddingRight="12dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="14dp"
+                android:fontFamily="@font/almendra"
+                android:text="Informasi Produk"
+                android:textColor="#3f4658"
+                android:textSize="28dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:fontFamily="@font/almendra"
+                android:text="Kode Barang"
+                android:textColor="#BC3F4658"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/etKodeBarang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="12dp"
+                android:inputType="text"
+                android:textColor="#050505"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:fontFamily="@font/almendra"
+                android:text="Nama Barang"
+                android:textColor="#BC3F4658"
+                android:textSize="18dp" />
+
+            <EditText
+                android:id="@+id/etNamaBarang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:inputType="text" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:fontFamily="@font/almendra"
+                android:text="Harga Barang"
+                android:textColor="#BC3F4658"
+                android:textSize="18dp" />
+
+
+            <EditText
+                android:id="@+id/erHargaBarang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:inputType="number" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:fontFamily="@font/almendra"
+                android:text="Banyak Barang | Ukuran "
+                android:textColor="#BC3F4658"
+                android:textSize="18dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/etBanyakBarang1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:hint="Contoh : 2 Pcs | XL"
+                    android:inputType="text" />
+
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/adaukuranLain1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="Ada Ukuran Lain ? "
+                android:textColor="#000000"/>
+
+            <LinearLayout
+                android:id="@+id/ukuranke2"
+                android:layout_marginTop="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/etBanyakBarang2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:hint="Contoh : 8 Pcs | M"
+                    android:inputType="text" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/adaukuranLain2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="Ada Ukuran Lain ? "
+                android:textColor="#000000"/>
+
+            <LinearLayout
+                android:id="@+id/ukuranke3"
+                android:layout_marginTop="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/etBanyakBarang3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Contoh : 6 Pcs | XXL"
+                    android:layout_marginLeft="12dp"
+                    android:inputType="text" />
+
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnSimpan"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="17dp"
+                android:background="@drawable/btn_login"
+                android:text="Simpan"
+                android:textColor="#ffff"
+                android:textSize="16dp" />
+
+
+            <ProgressBar
+                android:id="@+id/m_ProgresBar"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="15dp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

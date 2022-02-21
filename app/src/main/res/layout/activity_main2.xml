@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Users.MainActivity2">
+
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <EditText
+            android:id="@+id/inputSearch"
+            android:layout_width="285dp"
+            android:layout_height="wrap_content"
+            android:hint="Cari Produk ?"
+            android:drawableRight="@drawable/search_gold"
+            android:layout_margin="20dp"
+            android:background="@drawable/btn_bg"
+            android:paddingLeft="20dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:paddingRight="20dp"
+            />
+
+        <ImageView
+            android:id="@+id/filterKatagori"
+            android:layout_width="50dp"
+
+            android:layout_height="42dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/filtercoba"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:paddingRight="20dp"/>
+
+
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_below="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recylerView"
+        />
+
+    
+</RelativeLayout>

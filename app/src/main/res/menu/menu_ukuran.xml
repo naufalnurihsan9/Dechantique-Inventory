@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/UkuranS"
+        android:title="S"/>
+
+    <item
+        android:id="@+id/UkuranM"
+        android:title="M"/>
+    <item
+        android:id="@+id/UkuranL"
+        android:title="L"/>
+    <item
+        android:id="@+id/UkuranXL"
+        android:title="XL"/>
+    <item
+        android:id="@+id/UkuranXXL"
+        android:title="XXL"/>
+
+
+</menu>

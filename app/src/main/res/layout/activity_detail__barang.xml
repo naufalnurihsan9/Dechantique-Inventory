@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    android:orientation="vertical"
+    tools:context=".Users.Detail_Barang">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/backKeMainMenu_2"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/arrow_back" />
+
+        <ImageView
+            android:id="@+id/IvProduk_BP"
+            android:layout_width="210dp"
+            android:layout_height="167dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            />
+
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/btn_bg"
+            android:orientation="vertical"
+            android:paddingRight="12dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="14dp"
+                android:fontFamily="@font/almendra"
+                android:text="Detail Produk"
+                android:textColor="#3f4658"
+                android:textSize="28dp" />
+
+
+            <TextView
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:fontFamily="@font/almendra"
+                android:text="Kode Barang"
+                android:textColor="#BC3F4658"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/TvKodeBarang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                android:fontFamily="sans-serif"
+                android:inputType="text"
+                android:textColor="#BC000000"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:fontFamily="@font/almendra"
+                android:text="Katagori"
+                android:textColor="#BC3F4658"
+                android:textSize="18dp" />
+
+
+            <TextView
+                android:id="@+id/TVKatagoriDetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                android:fontFamily="sans-serif"
+                android:inputType="number"
+                android:textColor="#BC000000"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:fontFamily="@font/almendra"
+                android:text="Nama Barang"
+                android:textColor="#BC3F4658"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/TVNamaBarang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                android:fontFamily="sans-serif"
+                android:inputType="text"
+                android:textColor="#BC000000"
+                android:textSize="20dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:fontFamily="@font/almendra"
+                android:text="Harga Barang"
+                android:textColor="#BC3F4658"
+                android:textSize="18dp" />
+
+
+            <TextView
+                android:id="@+id/TVHargaBarang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                android:fontFamily="sans-serif"
+                android:inputType="number"
+                android:textColor="#BC000000"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:fontFamily="@font/almendra"
+                android:text="Banyak Barang | Ukuran"
+                android:textColor="#BC3F4658"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/TVBanyakDanUkuran1Detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                android:fontFamily="sans-serif"
+                android:inputType="text"
+                android:textColor="#BC000000"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/TVBanyakDanUkuran2Detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                android:fontFamily="sans-serif"
+                android:inputType="text"
+                android:textColor="#BC000000"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/TVBanyakDanUkuran3Detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                android:fontFamily="sans-serif"
+                android:inputType="text"
+                android:textColor="#BC000000"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/chatAdmin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="12dp"
+                android:fontFamily="@font/almendra"
+                android:text="Minat dengan produk ?? \n Yuk Pesan via Whatsapp"
+                android:textColor="#03A9F4"
+                android:textSize="18dp" />
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>
